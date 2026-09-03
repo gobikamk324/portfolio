@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gobikamk324/portfolio/static/css/main.28cacf2b.css",
-    "main.js": "/gobikamk324/portfolio/static/js/main.3961dc2c.js",
-    "static/media/smart-parking.jpg": "/gobikamk324/portfolio/static/media/smart-parking.ed0a35a701b91f4a1537.jpg",
-    "static/media/stock-dashboard.jpg": "/gobikamk324/portfolio/static/media/stock-dashboard.a44c8c30e31ee0f797bd.jpg",
-    "static/media/legal-ai.jpg": "/gobikamk324/portfolio/static/media/legal-ai.de01638b56933c81965d.jpg",
-    "index.html": "/gobikamk324/portfolio/index.html",
-    "main.28cacf2b.css.map": "/gobikamk324/portfolio/static/css/main.28cacf2b.css.map",
-    "main.3961dc2c.js.map": "/gobikamk324/portfolio/static/js/main.3961dc2c.js.map"
+    "main.css": "/portfolio/static/css/main.28cacf2b.css",
+    "main.js": "/portfolio/static/js/main.020d6aab.js",
+    "static/media/smart-parking.jpg": "/portfolio/static/media/smart-parking.ed0a35a701b91f4a1537.jpg",
+    "static/media/stock-dashboard.jpg": "/portfolio/static/media/stock-dashboard.a44c8c30e31ee0f797bd.jpg",
+    "static/media/legal-ai.jpg": "/portfolio/static/media/legal-ai.de01638b56933c81965d.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.28cacf2b.css.map": "/portfolio/static/css/main.28cacf2b.css.map",
+    "main.020d6aab.js.map": "/portfolio/static/js/main.020d6aab.js.map"
   },
   "entrypoints": [
     "static/css/main.28cacf2b.css",
-    "static/js/main.3961dc2c.js"
+    "static/js/main.020d6aab.js"
   ]
 }
