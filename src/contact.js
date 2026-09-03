@@ -10,10 +10,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_xejne2w",     // from EmailJS dashboard
-        "template_c3dt49i",    // from EmailJS dashboard
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,   // from .env
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,  // from .env
         form.current,
-        "0gxHH6cVZg-T1kzIP"      // from EmailJS dashboard
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY    // from .env
       )
       .then(
         (result) => {
@@ -43,7 +43,6 @@ function Contact() {
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/gobika-nanthini-mk-b61a883b8?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://github.com/gobikamk324" target="_blank" rel="noreferrer">GitHub</a>
-            
           </div>
         </div>
 
