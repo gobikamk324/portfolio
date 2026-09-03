@@ -1,0 +1,51 @@
+.certificates-section {
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  color: #f7f5f0;
+}
+
+.certificates-heading {
+  max-width: 560px;
+  margin-bottom: 70px;
+}
+
+.certificate-list {
+  list-style: none;
+  padding: 0;
+}
+
+.certificate-list li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+  border-left: 3px solid #f0a35b;
+  padding-left: 15px;
+}
+
+.certificate-year {
+  color: #f0a35b;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.resume-section {
+  margin-top: 10px;   /* reduce this value to shrink the gap */
+  padding-top: 0; 
+      /* remove extra padding if any */
+    margin-bottom: 50px; /* reduce this value to shrink the gap */
+    }
+
+.resume-download-btn {
+  font-size: 1.2rem;       /* increase font size */
+  font-weight: bold;       /* make it bolder */
+  color: #36de0c;          /* orange accent color */
+  text-decoration: none;   /* remove underline */
+  transition: color 0.3s;  /* smooth hover effect */
+}
+
+.resume-download-btn:hover {
+  color: #0adb49;          /* lighter shade on hover */
+}

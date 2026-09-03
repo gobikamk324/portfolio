@@ -1,0 +1,61 @@
+.hero {
+  background: #0a0a23;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.gradient-btn {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #0a0a23; /* your dark blue */
+  color: white;
+}
+
+.about-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+
+.profile-pic {
+  width: 250px;
+  height: auto;
+  border-radius: 10px; /* keeps corners slightly rounded */
+  margin-right: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4); /* adds depth */
+}
+
+
+.about-text {
+  max-width: 500px;
+  text-align: left;
+}
